@@ -1,0 +1,473 @@
+*{
+    font-family: tahoma;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+
+/* START OF HERO SECTION */
+.navsideimage img{
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 800px;
+
+   
+}
+/* START OF NAVIGATION SECTION */
+nav{
+    display: flex;
+    align-items: center;
+    width: 99%;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 100px ;
+    padding-right: 100px ;
+}
+
+.navlogo{
+    align-items: center;
+    display: flex;
+    z-index: 3;
+}
+
+.navlogo img:nth-child(1){
+    width: 40px;
+    padding-right: 10px;
+}
+
+.navlogo img:nth-child(2){
+    width: 90px;
+}
+.navmenu ul{
+    display: flex;
+    
+}
+
+.navmenu ul li{
+    list-style: none;
+    padding-right: 20px;
+    z-index: 3;
+    color: rgba(158, 163, 174, 1);
+    font-weight: 600;
+}
+
+.navbutton button{
+    width: 150px;
+    background-color: rgba(35, 116, 238, 1);
+    color: white;
+    padding: 16px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+}
+
+/* END OF NAV SECTION PROPER */
+
+.herosection{
+    height: 102vh;
+    width: 100vw;
+    background-color: 
+    rgba(235, 242, 255, 1);
+   
+}
+
+.herosectionA2 h2{
+    z-index: -1;
+    font-size: 4rem;
+    padding-bottom: 20px;
+    color: rgba(6, 56, 82, 1);
+}
+.herosectionA{
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    display: grid;
+    width: 110%;
+    z-index: 8;
+    grid-template-columns: 30% 70%;
+    justify-content: space-between;
+    padding-left: 100px;
+    height: 90vh;
+}
+
+/* .herosectionA2 {
+    padding-bottom: 0px;
+} */
+
+.herosectionA span{
+    color:  rgba(35, 116, 238, 1);
+}
+
+.herosectionA2 p{
+    z-index: 3;
+    font-size: 1.3rem;
+    color: rgba(158, 163, 174, 1);
+}
+
+.herosectionA h6{
+    z-index: 3;
+    font-size: 0.9rem;
+    color: rgba(6, 56, 82, 1);
+}
+
+.herovideosection{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.herovideosection img{
+    width: 30px;
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.herovideosection button{
+    width: 150px;
+    background-color: rgba(35, 116, 238, 1);
+    color: white;
+    padding: 10px 0px;
+    border-radius: 30px;
+    border: none;
+    font-size: 0.8rem;
+    z-index: 1;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.herosectionB img{
+    width: 830px;
+    z-index: 10;
+}
+/* END OF HERO SECTION */
+
+/* START OF SECTION BELOW HERO */
+
+.underherosection{
+    background-color:  #E5E5E5;
+    padding: 0px 100px;
+    padding-top: 200px;
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    grid-template-columns: auto auto;
+}
+
+.underherosectionB img{
+    position: relative;
+    z-index: 3;
+}
+
+.underherosectionsideimage img{
+    position: absolute;
+    top: -100px;
+    width: 820px;
+    right: -50px;
+    z-index: 1;
+}
+
+.underherosection h2{
+    color: rgba(6, 56, 82, 1);
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.underherosection p{
+    font-size: 1.3rem;
+    color: rgba(158, 163, 174, 1);
+}
+
+.underherosectionB{
+    display: flex;
+}
+
+.underherosectionBpart1 img{
+    width: 50px;
+    padding-top: 50px;
+    margin-right: 10px;
+}
+
+
+.underherosectionBpart1 p{
+color: rgba(6, 56, 82, 1);
+}
+
+.underherosectionBpart1 h2{
+    font-size: 2rem;
+    padding-bottom: 0px;
+    color: rgba(35, 116, 238, 1);
+}
+
+.underherosectionBpart1{
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+}
+
+#underherosectionBbutton{
+    width: 180px;
+    height: 58px;
+    left: 130px;
+    top: 1248px;
+    background: #2374EE;
+    border-radius: 37px;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+/* END OF SECTION BELOW HERO */
+
+/* START OF FEATURES SECTION */
+
+.featuressection{
+    background-color: #E5E5E5;
+    padding: 100px;
+}
+
+.featuressection h2{
+    font-size: 2.3rem;
+}
+
+.featuressection p{
+    font-size: 1.3rem;
+    color: rgba(108, 114, 127, 1);
+
+}
+
+.featuresinner{
+    width: 98%;
+    margin: auto;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+
+/* END OF FEATURES SECTION */
+
+/* START OF SCHOOL ANS PARENTS SECTION */
+
+.schoolandparentsection{
+    background-color: rgb(35,116,238);
+    padding: 100px;   
+    color: white;
+    height: 470px;
+}
+.schoolandparentsection h2{
+    font-size: 2.3em;
+}
+
+.schoolandparentsection p{
+    padding-top: 10px;
+    font-size: 1rem;
+
+}
+
+.schoolandparentsectioninner{
+    background-color: white;
+    padding: 50px;
+    color: rgba(6, 56, 82, 1);
+    width: 300px;
+    height: 304px;
+    width: 309px;
+    left: 201px;
+    top: 3246px;
+    border-radius: 16px;
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.schoolandparentsectioninner p{
+    font-size: 0.9rem;
+}
+
+.schoolandparentsectionboxes{
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.schoolandparentsectionout{
+    background-color:  #E5E5E5;
+    height: 1600px;
+}
+
+
+#leftsroll{
+    background-color: white;
+    padding:15px;
+    border-radius: 30px;
+    position: relative;
+    top: 190px;
+    left: -550px;
+    z-index: 2;
+    box-shadow: 5px 5px 20px #888888;
+}
+
+#rightsroll{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 1100px;
+    top: -180px;
+    z-index: 2;
+    box-shadow: 5px 5px 20px #888888;
+}
+
+
+#schoolandparentsectionoutbckground{
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    position: absolute;
+    left: 180px;
+    opacity: 0.4;
+}
+
+.schoolandparentsectionout button{
+    background-color: rgba(35, 116, 238, 1);
+    border: none;
+    width: 180px;
+    height: 58px;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 37px;
+
+}
+
+
+.plansection{
+    padding: 100px 2px;
+    color:  rgba(6, 56, 82, 1);
+    /* background-color: #E5E5E5; */
+    position: relative;
+    /* width: 100vw; */
+}
+
+.plansectioninner{
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+.plansectioninnerA img{
+    height: 500px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.plansectioninnerA img:hover{
+    transform: scale(1.2);
+}
+
+.plansectioninnerB img{
+    height: 600px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    z-index: 3;
+}
+
+.plansectioninnerB img:hover{
+    transform: scale(1.2);
+}
+
+.plansectioninnerC img{
+    height: 500px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.plansectioninnerC img:hover{
+    transform: scale(1.2);
+}
+
+/* END OF SCHOOL AND PARENTS SECTION */
+
+/* START OF FOOTERD SECTION */
+
+footer{
+    background-color: rgba(6, 56, 82, 1);
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+footer h2{
+    color: white;
+    font-size: 2rem;
+}
+
+footer p{
+    color: rgba(158, 163, 174, 1);
+    font-size: 1.2rem;
+}
+
+.footerinner{
+    display: grid;
+    margin: auto;
+    width: 80%;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.footerinnerB{
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.footerinnerB button{
+    width: 180px;
+    height: 58px;
+    left: 766px;
+    top: 5217px;
+    background: #2374EE;
+    border-radius: 37px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navlogo2{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    grid-template-columns: auto auto;
+    height: 40px;
+}
+
+.footernav{
+    padding-top: 40px;
+    align-items: center;
+}
+
+.navlogo2out p{
+    padding-top: 10px;
+}
+
+#footerbcking{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/* END OF FOOTERD SECTION */
